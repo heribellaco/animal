@@ -63,13 +63,12 @@
         }
 
         h2 {
-            font-size: 2rem;
+            font-size: 3rem;
             margin: 10rem 0 2rem;
             margin: auto;
             color: firebrick;
             font-weight:500;
             position: relative;
-            //z-index: 1;
             margin-top: 20px;
         }
 
