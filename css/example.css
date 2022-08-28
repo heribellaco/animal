@@ -30,13 +30,15 @@
             background-position: center;
             background-size: contain;
             color: transparent; 
-            margin-top: 355px;
+            margin-top: 244px;
 
             }
 
             .coin:hover {
-                background-size: auto;
-                opacity: .8;
+                background-size: contain;
+                opacity: .9;
+                rotate: 10deg;
+                scale: 85%;
             }
 
         h1,
