@@ -1,7 +1,7 @@
 const clickcoin = document.querySelector(".coin");
 
 function alertBtn() {
-  /* document.getElementById("audio").play(); */
+  document.getElementById("audio").play();
   window.open("../cover.html");
 }
 
