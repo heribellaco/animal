@@ -11,13 +11,12 @@
         }
 
         body {
-            /* background-image: url(../images/animal_garden.jpg); 
-            background-repeat: no-repeat;
-            background-position: initial;
-            background-size: cover; 
-            height: 100vh;*/
             background-color:#124559d6;
-            font-size: 3rem;
+            background-image: radial-gradient(white,#475569);
+            display: flex;
+            flex-direction: column;
+            font-size: 2rem;
+            min-height: 100vh;
             font-family: "Montserrat", sans-serif;
         }
 
@@ -121,29 +120,63 @@
             left: 0;
         }
 
-                @media screen and (max-width: 1024px) {
+            
+                @media screen and (min-width: 576px) {
                     body {
-                    background-color: whitesmoke;
+                    background-color: green;
+                    background-image: radial-gradient(white,green);
                     font-size: 1.2rem;
                     }
+                    
                 }
-
-                @media screen and (min-height: 650px) {
+                /* || Medium */
+                @media screen and (min-width: 768px) {
                     body {
-                    background-color: whitesmoke;
-                    font-size: .8rem;
-                    margin-top: -10px;
+                    background-color: gold;
+                    background-image: radial-gradient(white,gold);
+                    font-size: .9rem;
+                    }
+                    h3 {
+                        color: whitesmoke;
                     }
                 }
 
-            .button {
-            display: none;
-            margin: auto;
-            position: relative;
-            width: 130px;
-            margin-top: 30px;
-    
-        }
+                /* || Large
+                @media screen and (min-width: 992px) {
+                    body {
+                    background-color: firebrick;
+                    background-image: radial-gradient(white,firebrick);
+                    font-size: .6rem;
+                    }
+                }
+                 */
+
+                @media screen and (orientation: landscape) {
+                    body {
+                    background-color: dodgerblue;
+                    background-image: radial-gradient(white,dodgerblue);
+                    }
+                    .container {
+                        height: 90vh;
+                    }
+                    h3 {
+                        font-size: 1rem;
+                        margin-top: 5px;
+                    }
+                    h2 {
+                        font-size: 2rem;
+                        margin-top: 5px;
+                    }
+                }
+
+                .button {
+                    display: none;
+                    margin: auto;
+                    position: relative;
+                    width: 130px;
+                    margin-top: 30px;
+
+                }
         
             .social {
 
