@@ -33,17 +33,17 @@
             justify-content: center;
             overflow: hidden;
             text-align: center;
-
+            position: relative;
         }
 
             .coin {
             background-image:url(../images/coin.png);
             background-repeat: no-repeat;
-            background-position: center;
-            background-size: contain;
+            position: sticky;
+            background-size: auto;
             z-index: 1; 
-            margin-top: 60px;
-            padding: 15px 15px;
+            margin: 50px 60px;
+            padding: 20px;
             
             }
 
