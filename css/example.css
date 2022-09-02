@@ -38,12 +38,13 @@
 
             .coin {
             background-image:url(../images/coin.png);
+            /* background-color: #55ACEE; */
             background-repeat: no-repeat;
             position: relative;
-            background-size: auto;
+            background-size: contain;
             z-index: 1; 
-            margin: 45px 50px;
-            padding: 25px;
+            margin: 40px;
+            padding: 20px;
             height: auto;
             
             }
@@ -55,7 +56,8 @@
 
             .coin:hover {
                 background-size: contain;
-                opacity: .7;
+                opacity: .8;
+                rotate: 10deg;
             }
 
         h1,
@@ -140,6 +142,7 @@
                     }
                     h3 {
                         color: whitesmoke;
+                        margin-top: 80px;
                     }
                 }
 
@@ -153,23 +156,23 @@
                 }
                  
 
-                @media screen and (orientation: landscape) {
+                @media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
                     body {
                     background-color: dodgerblue;
                     background-image: radial-gradient(white,dodgerblue);
                     }
                     .container {
-                        height: 90vh;
+                        height: 100vh;
                     }
 
                     h2 {
                         font-size: 2.6rem;
-                        margin-top: 5px;
+                        margin-top: 15px;
                     }
 
                     h3 {
                         font-size: 1.5rem;
-                        margin-top: 5px;
+                        margin-top: 10px;
                     }
                     
                 }
@@ -220,5 +223,6 @@
                   background: #55ACEE;
                   color: white;
 } 
+
 
       </style>
