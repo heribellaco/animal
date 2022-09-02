@@ -31,19 +31,20 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+            align-items: center;
             overflow: hidden;
-            text-align: center;
             position: relative;
         }
 
             .coin {
             background-image:url(../images/coin.png);
             background-repeat: no-repeat;
-            position: sticky;
+            position: relative;
             background-size: auto;
             z-index: 1; 
-            margin: 50px 60px;
-            padding: 20px;
+            margin: 45px 50px;
+            padding: 25px;
+            height: auto;
             
             }
 
@@ -87,7 +88,8 @@
             color: firebrick;
             font-weight:500;
             position: relative;
-            margin-top: 20px;
+            margin-top: 5px;
+            padding: 5px;
         }
 
 
@@ -125,7 +127,7 @@
                     body {
                     background-color: green;
                     background-image: radial-gradient(white,green);
-                    font-size: 1.2rem;
+                    font-size: 1rem;
                     }
                     
                 }
@@ -134,22 +136,22 @@
                     body {
                     background-color: gold;
                     background-image: radial-gradient(white,gold);
-                    font-size: .9rem;
+                    font-size: 1.2rem;
                     }
                     h3 {
                         color: whitesmoke;
                     }
                 }
 
-                /* || Large
+                /* || Large */
                 @media screen and (min-width: 992px) {
                     body {
                     background-color: firebrick;
                     background-image: radial-gradient(white,firebrick);
-                    font-size: .6rem;
+                    font-size: 1.5rem;
                     }
                 }
-                 */
+                 
 
                 @media screen and (orientation: landscape) {
                     body {
@@ -159,14 +161,17 @@
                     .container {
                         height: 90vh;
                     }
-                    h3 {
-                        font-size: 1rem;
-                        margin-top: 5px;
-                    }
+
                     h2 {
-                        font-size: 2rem;
+                        font-size: 2.6rem;
                         margin-top: 5px;
                     }
+
+                    h3 {
+                        font-size: 1.5rem;
+                        margin-top: 5px;
+                    }
+                    
                 }
 
                 .button {
