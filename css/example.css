@@ -13,8 +13,6 @@
         body {
             background-color:#124559d6;
             background-image: radial-gradient(white,#475569);
-            display: flex;
-            flex-direction: column;
             font-size: 2rem;
             min-height: 100vh;
             font-family: "Montserrat", sans-serif;
