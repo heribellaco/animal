@@ -25,7 +25,7 @@
 
         .container {
             padding-top: 30px;
-            height: 80vh;
+            height: 70vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -35,15 +35,16 @@
         }
 
             .coin {
-            background-image:url(../images/coin.png);
-            /* background-color: #55ACEE; */
+            background-image:url(../images/kerwals400.png);
+            background-color: transparent;
             background-repeat: no-repeat;
             position: relative;
             background-size: contain;
             z-index: 1; 
-            margin: 40px;
-            padding: 20px;
-            height: auto;
+            margin: 30px;
+            padding: 10px;
+            width:180px;
+            height:280px;
             
             }
 
@@ -55,7 +56,7 @@
             .coin:hover {
                 background-size: contain;
                 opacity: .8;
-                rotate: 10deg;
+                rotate: 6deg;
             }
 
         h1,
@@ -82,11 +83,11 @@
         }
 
         h2 {
-            font-size: 2.5rem;
+            font-size: 3rem;
             margin: 10rem 0 2rem;
             margin: auto;
             color: firebrick;
-            font-weight:500;
+            font-weight:600;
             position: relative;
             margin-top: 5px;
             padding: 5px;
